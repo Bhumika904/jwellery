@@ -1,0 +1,59 @@
+.shops{
+    display: flex;
+}
+.shopRight{
+    margin-left:2%;
+    width:80%;
+}
+.shopRight label{
+    display: block;
+    color:brown;
+    text-align: center;
+    font-size: x-large;
+}
+.Featureditems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width:95%;
+}
+.eachItems{
+    margin-top: 2%;
+    width:250px;
+    height:270px;
+    padding:30px 30px 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.eachItems label{
+    display: block;
+    font-size: medium;
+}
+.contactDiv{
+    width:98%;
+    display: flex;
+    margin-left:1%;
+    height:250px;
+    background-color:#ebecf6;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Contactlbl label{
+    display: block;
+    width:250px;
+    font-size:x-large;
+    color: chocolate;
+   
+}
+.Contactlbl{
+    margin-left:10%;
+    margin-top:5%;
+}
+.Contactlbl p{
+    font-size: larger;
+    color:rgb(230, 148, 89);
+}
+.ContactBg{
+    margin-left:30%;
+}
